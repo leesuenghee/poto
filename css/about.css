@@ -1,0 +1,143 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.adobe{font-family: 'adobe';}
+.Korean{font-family: 'KoreanBRRNAR';}
+
+@font-face {
+    font-family: 'adobe';
+    src: url('../font/AdobeHeitiStd-Regular-Alphabetic.eot');
+    src: url('../font/AdobeHeitiStd-Regular-Alphabetic.eot?#iefix') format('embedded-opentype'),
+        url('../font/AdobeHeitiStd-Regular-Alphabetic.woff2') format('woff2'),
+        url('../font/AdobeHeitiStd-Regular-Alphabetic.woff') format('woff'),
+        url('../font/AdobeHeitiStd-Regular-Alphabetic.ttf') format('truetype'),
+        url('../font/AdobeHeitiStd-Regular-Alphabetic.svg#AdobeHeitiStd-Regular-Alphabetic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KoreanBRRNAR';
+    src: url('../font/KoreanBRRNA-R.eot');
+    src: url('../font/KoreanBRRNA-R.eot?#iefix') format('embedded-opentype'),
+        url('../font/KoreanBRRNA-R.woff2') format('woff2'),
+        url('../font/KoreanBRRNA-R.woff') format('woff'),
+        url('../font/KoreanBRRNA-R.ttf') format('truetype'),
+        url('../font/KoreanBRRNA-R.svg#KoreanBRRNA-R') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+*{box-sizing: border-box; font-family: 'Montserrat', sans-serif;}
+html, body{margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}
+
+#warp{}
+#warp .cont{width: 100%; position: relative; background-color: #b9c1d6; padding: 50px 0;}
+#warp .cont h2{font-size: 30px; text-align: center; padding: 20px; color: #fff;}
+
+#warp .cont .main{width: 900px; margin: 0 auto;}
+#warp .cont .main .about{padding: 80px 0;}
+#warp .cont .main .about h2{font-size: 25px;}
+
+#warp .cont .main .about .main_cont{ display: flex; justify-content: space-between; align-items: center;}
+
+#warp .cont .main .about .main_cont .img{}
+#warp .cont .main .about .main_cont .img img:last-child{width: 150px; height: 150px;}
+
+#warp .cont .main .about .main_cont .text{width: 500px; line-height: 30px;}
+#warp .cont .main .about .main_cont .text p{font-size: 13px;}
+
+#warp .cont .main .about .all_color{}
+#warp .cont .main .about .all_color .img{text-align: center;}
+#warp .cont .main .about .all_color .img img{width: 650px; height: 380px;}
+#warp .cont .main .about .all_color .cont_color{ display: flex; justify-content: space-between;  margin: 0 auto;}
+
+#warp .cont .main .about .all_color .cont_color .main_color{width: 200px; padding-top: 80px; }
+
+#warp .cont .main .about .all_color .cont_color .main_color .color{width: 80px; height: 80px;  border-radius: 50%; margin: 0 auto;}
+#warp .cont .main .about .all_color .cont_color .main_color:first-child .color{background-color: #d58461;}
+#warp .cont .main .about .all_color .cont_color .main_color:nth-child(2) .color{background-color: #893e1e;}
+#warp .cont .main .about .all_color .cont_color .main_color:nth-child(3) .color{background-color: #777;}
+
+
+#warp .cont .main .about .all_color .cont_color .main_color h2{font-size: 20px;}
+#warp .cont .main .about .all_color .cont_color .main_color p{line-height: 20px; font-size: 12px;}
+
+
+#warp .cont .main .about .all_text{width: 600px; display: flex; justify-content: space-between; margin: 0 auto; padding-top: 50px;}
+#warp .cont .main .about .all_text .main_text{width: 200px; margin: 0 auto;}
+#warp .cont .main .about .all_text .main_text .font{font-size: 40px; padding-bottom: 30px;}
+#warp .cont .main .about .all_text .main_text p{font-size: 12px; line-height: 20px;}
+
+
+/* db 콘텐츠 */
+#warp2{width: 100%; background-color: #b9c1d6;}
+#warp2 .cont{ position: relative;  }
+#warp2 .cont h2{font-size: 30px; text-align: center; color: #fff;}
+
+#warp2 .cont .level{width: 1200px; margin: 0 auto; }
+/* #warp2 .cont .level .about{padding: 80px 0;} */
+#warp2 .cont .level h2{font-size: 25px; padding: 30px;}
+#warp2 .cont .level .main_level{width: 100%; }
+
+#warp2 .cont .level .main_level .cont{display: flex;justify-content: space-between; align-items: center;}
+#warp2 .cont .level .main_level .cont img{width: 800px; height: 400px;}
+
+#warp2 .cont .level .main_level p{width: 350px; line-height: 30px; font-size: 12px;}
+
+#warp2 .cont .level .main_level2{ }
+#warp2 .cont .level .main_level2 .cont{width: 1000px; display: flex; justify-content: center; align-items: center; margin: 0 auto; padding-bottom: 30px;}
+#warp2 .cont .level .main_level2 .cont .img{}
+#warp2 .cont .level .main_level2 .cont .img img{}
+#warp2 .cont .level .main_level2 .cont p{width: 400px; line-height: 30px; font-size: 12px;}
+
+#warp2 .cont .level .main_level2 .cont:last-child{display: block; text-align: center;}
+#warp2 .cont .level .main_level2 .cont:last-child img{width: 700px; }
+#warp2 .cont .level .main_level2 .cont:last-child p{width: auto;}
+
+#warp2 .cont .level .main_level3{display: flex; align-items: center; justify-content: space-between;}
+#warp2 .cont .level .img2{}
+#warp2 .cont .level .img2 img{width: 700px; }
+#warp2 .cont .level .main_level3 .text p{width: 400px; line-height: 30px; font-size: 12px;}
+
+
+#warp2 .cont2{ position: relative;  padding: 100px 0;}
+#warp2 .cont2 h2{font-size: 30px; text-align: center; padding: 30px; color: #fff; }
+
+#warp2 .cont2 .level h2{font-size: 25px;}
+#warp2 .cont2 .level:nth-child(4) h2{font-size: 20px;}
+#warp2 .cont2 .level .main_level{width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;}
+#warp2 .cont2 .level .main_level .img{}
+#warp2 .cont2 .level .main_level .img img{width: 700px;}
+#warp2 .cont2 .level .main_level .text{width: 400px;}
+#warp2 .cont2 .level .main_level .text p{width: 400px; line-height: 30px; font-size: 12px;}
+
+
+
+#warp2 .cont2 .level .main_level2{width: 1200px; margin: 0 auto;} 
+#warp2 .cont2 .level .main_level2 .img{display: flex; justify-content: space-between;}
+#warp2 .cont2 .level .main_level2 .img img{width: 350px;}
+#warp2 .cont2 .level .main_level2 .text{padding: 30px 0; line-height: 30px; font-size: 12px;}
+
+
+#warp2 .cont2 .level .main_level3{width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;} 
+#warp2 .cont2 .level .main_level3 .img img{width: 700px;}
+#warp2 .cont2 .level .main_level3 .text{ width: 400px; line-height: 30px; font-size: 12px;}
+
+
+
+
+
+
+
